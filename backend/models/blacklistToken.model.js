@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const createModel = require('../utils/createModel'); // ✅ import default exported function
+const createModel = require('../utils/createModel'); 
 
 const blacklistTokenSchema = new mongoose.Schema({
   token: {
